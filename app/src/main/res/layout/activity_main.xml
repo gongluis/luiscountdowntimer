@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tip_order_time_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/edge_12"
+        android:textColor="@color/color_333333"
+        android:layout_marginTop="@dimen/edge_16"
+        android:text="@string/pay_left_time"/>
+
+    <LinearLayout
+        android:id="@+id/ll_count_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tip_order_time_tip"
+        android:layout_marginHorizontal="@dimen/edge_12"
+        android:layout_marginTop="@dimen/edge_13"
+        android:background="@color/white"
+        android:gravity="center_horizontal">
+
+        <com.cardinfolink.luiscountdowntimer.LuisCountDownTimer
+            android:id="@+id/ct_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/edge_14"/>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LuisCountDownTimer</string>
+    <string name="pay_left_time">支付剩余时间</string>
+</resources>
