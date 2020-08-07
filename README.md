@@ -1,7 +1,7 @@
 ### LuisCountDownTimer  
 Android 倒计时控件，支持倒计时，一个java文件支持倒计时。
 #### 效果演示
-![1596785864989_1_.gif](https://i.loli.net/2020/08/07/bI96nuqhxSUcmzY.gif)  
+![1596790608439_1_.gif](https://i.loli.net/2020/08/07/WwdTHDBosl9SVeQ.gif)
   
 #### 示例APK   
 [download](https://github.com/gongluis/luiscountdowntimer/blob/master/app-debug.apk)
